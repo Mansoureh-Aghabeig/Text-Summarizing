@@ -173,3 +173,31 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 artifacts/*
+
+# PyTorch Lightning / Trainer
+checkpoints/
+*.ckpt
+
+# Cache directories (local or Hugging Face)
+__pycache__/
+*.py[cod]
+*.so
+*.ipynb_checkpoints
+.cache/
+.huggingface/
+datasets/
+*.onnx
+
+# Model artifacts
+tokenizer/
+t5-samsum-model/
+pegasus-samsum-model/
+Binary Skeleton/
+
+External Libraries/*
+
+log/
+.log/
+src/utils/logs/
+
+*.egg-info/
