@@ -20,4 +20,3 @@ uvicorn==0.18.3
 Jinja2==3.1.2
 accelerate>=0.26.0
 evaluate
--e .
